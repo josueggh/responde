@@ -1,0 +1,30 @@
+{
+  "name": "responde",
+  "version": "1.0.2",
+  "description": "Simulate any HTTP API response in a breeze for robust and efficient testing.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josueggh/responde.git"
+  },
+  "keywords": [
+    "HTTP",
+    "API",
+    "mock",
+    "simulate",
+    "test",
+    "response"
+  ],
+  "author": "Josue Gutierrez",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
+  }
+}
